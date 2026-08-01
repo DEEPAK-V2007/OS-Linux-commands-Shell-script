@@ -759,6 +759,8 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
+![alt text](image-73.png)
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -777,7 +779,11 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+
+## OUTPUT
+
+![alt text](image-74.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -792,7 +798,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+
+## OUTPUT
+
+![alt text](image-75.png)
  
 cat untiltest.sh 
 ```bash
@@ -806,7 +815,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+## OUTPUT
+
+![alt text](image-76.png)
  
 cat forin1.sh 
 ```bash
