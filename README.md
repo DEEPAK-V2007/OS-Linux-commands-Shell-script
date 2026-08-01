@@ -43,23 +43,28 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+![alt text](image-1.png)
 
 cat < file2
 ## OUTPUT
 
+![alt text](image-2.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+![alt text](image-3.png)
+
 comm file1 file2
  ## OUTPUT
 
+![alt text](image-4.png)
  
 diff file1 file2
 ## OUTPUT
 
+![alt text](image-5.png)
 
 #Filters
 
@@ -83,17 +88,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
-
+![alt text](image-6.png)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![alt text](image-7.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![alt text](image-8.png)
 
 cat < newfile 
 ```
