@@ -348,14 +348,12 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![alt text](image-48.png)
+
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
-![alt text](image-49.png)
 
 cat < urllist.txt
 ```
@@ -373,20 +371,17 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![alt text](image-50.png)
+
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![alt text](image-51.png)
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-![alt text](image-52.png)
-
-![alt text](image-53.png)
 
 mkdir backupdir
  
@@ -397,24 +392,18 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![alt text](image-54.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
-![alt text](image-55.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-
-![alt text](image-56.png)
-
+ 
 gunzip backup.tar.gz
 ## OUTPUT
 
-![alt text](image-57.png)
  
 # Shell Script
 ```
@@ -425,7 +414,6 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
-![alt text](image-58.png)
  
 cat << stop > herecheck.txt
 ```
@@ -438,7 +426,6 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![alt text](image-59.png)
 
 cat < scriptest.sh 
 ```bash
@@ -477,32 +464,24 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-![alt text](image-60.png)
  
 ls file1
 ## OUTPUT
 
-![alt text](image-61.png)
-
 echo $?
 ## OUTPUT 
-
-![alt text](image-62.png)
-
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-
-![alt text](image-63.png)
-
+ 
 abcd
  
 echo $?
  ## OUTPUT
 
-![alt text](image-64.png)
+
  
 # mis-using string comparisons
 
@@ -534,14 +513,13 @@ fi
 ```
 ##OUTPUT
 
-![alt text](image-65.png)
+
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
-![alt text](image-66.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -568,8 +546,6 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
-![alt text](image-69.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -617,7 +593,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![alt text](image-68.png)
+
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -659,9 +635,7 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-## OUTPUT
-
-![alt text](image-70.png)
+##OUTPUT
 
 # check if a file
 cat > ifnested.sh 
@@ -710,9 +684,7 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-## OUTPUT
-
-![alt text](image-71.png)
+##OUTPUT
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -742,7 +714,6 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![alt text](image-72.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
