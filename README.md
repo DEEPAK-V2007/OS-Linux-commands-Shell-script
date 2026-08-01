@@ -113,7 +113,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![alt text](image-8.png)
+![alt text](image-46.png)
 
 grep hello newfile 
 ## OUTPUT
@@ -334,6 +334,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![alt text](image-47.png)
 
 cat > file22
 ```
