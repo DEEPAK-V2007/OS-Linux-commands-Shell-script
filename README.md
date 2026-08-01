@@ -147,7 +147,7 @@ grep -R ubuntu /etc
 grep -w -n world newfile   
 ## OUTPUT
 
-![alt text](image-17.png)
+![alt text](image-30.png)
 
 cat < newfile 
 ```
@@ -245,79 +245,82 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![alt text](image-17.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![alt text](image-31.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![alt text](image-32.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![alt text](image-33.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![alt text](image-34.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![alt text](image-35.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
-
+![alt text](image-36.png)
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![alt text](image-37.png)
 
 seq 10 
 ## OUTPUT
 
-
+![alt text](image-38.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-
+![alt text](image-39.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![alt text](image-40.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-
+![alt text](image-41.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![alt text](image-42.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![alt text](image-43.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
+![alt text](image-44.png)
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 
+![alt text](image-45.png)
 
 #Sorting File content
 cat > file21
