@@ -6,6 +6,9 @@ Linux commands-Shell scripting
 # AIM:
 To practice Linux Commands and Shell Scripting
 
+# NAME: DEEPAK.V
+# REGISTER NO: 212225230044
+
 # DESIGN STEPS:
 
 ### Step 1:
